@@ -16,7 +16,7 @@ InstallSpaceMath[] := Module[
 					                           ]
 				                          ]
 			                         ];
-                             url = "https://github.com/spacemathapp/SpaceMath-v.2.0/raw/alpha/BuiltPackage/SpaceMath-2.0.paclet";
+                             url = "https://github.com/spacemathapp/SpaceMath-v.2.0/raw/beta/BuiltPackage/SpaceMath-2.0.paclet";
                              localPath = FileNameJoin[{$UserDocumentsDirectory, "SpaceMath-2.0.paclet"}];
                              URLDownload[url, localPath];
                              PacletInstall[FileNameJoin[{$UserDocumentsDirectory, "SpaceMath-2.0.paclet"}]];
